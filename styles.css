@@ -15,15 +15,16 @@ header {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-gap: 12px;
-  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  grid-gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .content img {
-  padding: 0;
   object-fit: cover;
   height: 250px;
-  width: 100%;
+  width: 98%;
+  padding: 3px;
+  background-color: black;
   transition: all 0.5s;
 }
 
