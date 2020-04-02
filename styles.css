@@ -1,0 +1,83 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  position: relative;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+}
+
+.content img {
+  padding: 0;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.content:hover > img {
+  opacity: 0.3;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.content h6 {
+  position: absolute;
+  font-family: 'Inria Sans', sans-serif;
+  background-color: rgba(255,255,255,0.7);
+  padding: 5px 10px;
+  border-radius: 2em;
+  margin: 0;
+  font-size: 150%;
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+.content:hover > h6 {
+  background-color: rgba(255,255,255,0);
+  font-size: 165%;
+  transition: all 0.5s;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 12vh;
+  line-height: 12vh;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 3px;
+  font-size: 3vh;
+  line-height: 4vh;
+  font-family: 'Architects Daughter', Arial;
+  color: rgb(163, 163, 163);
+}
+
+h5 {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 300%;
+  margin: 5px;
+  margin-top: 0;
+}
+
+hr {
+  position: relative;
+  border: 2px solid black;
+  top: 6px;
+}
