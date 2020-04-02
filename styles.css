@@ -82,3 +82,14 @@ hr {
   border: 2px solid black;
   top: 6px;
 }
+
+@media only screen and (orientation: portrait) {
+  h1 {
+    font-size: 16vw;
+    line-height: 16vw;
+  }
+  h2 {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+}
